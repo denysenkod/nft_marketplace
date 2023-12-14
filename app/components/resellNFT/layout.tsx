@@ -1,14 +1,6 @@
 import {Nunito} from "next/font/google";
 
-import './globals.css';
-
-import Marketplace from "./components/marketplace/Marketplace";
-import NFTpage from "./components/marketplace/NFTpage";
-import NFTplate from "./components/marketplace/NFTplate";
-import ListNFTModal from "./components/listNFT/ListNFTModal";
-
 import type { Metadata } from 'next';
-import ToasterProvider from "./providers/ToasterProvider";
 
 export const metadata: Metadata = {
   title: 'NFT markeplace',
